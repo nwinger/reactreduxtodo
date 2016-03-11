@@ -5,8 +5,10 @@ module.exports = {
   output: {
     path: path.join(__dirname),
     publicPath: '/',
-    filename: 'bundle.js'
+    filename: 'bundle.js',
+    sourceMapFilename: 'bundle.map'
   },
+  devTool: '#source-map',
   devServer: {
     inline: true,
     port: 8080,

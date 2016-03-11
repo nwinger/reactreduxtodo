@@ -1,0 +1,10 @@
+{
+  "extends": "airbnb",
+   "ecmaFeatures": {
+       "experimentalObjectRestSpread": true, // allow for ... (sread) operator 
+       "jsx": true
+     },
+     "globals": {
+
+     }
+}
